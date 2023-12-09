@@ -523,6 +523,22 @@
   }
   
   @media screen and (max-width: 768px) {
+      .nav-container .links {
+        display: none;
+    }
+
+    .mobile-button {
+        display: flex;
+    }
+
+    .mobile-links {
+        width: 100%;
+    }
+
+    .mobile-links a {
+        font-size: var(--font-medium-large);
+        padding: 15px;
+    }
     .mobile-links-active {
       width: 70%;
     }
