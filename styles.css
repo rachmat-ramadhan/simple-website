@@ -553,23 +553,20 @@
     }
   
     .about .text-one {
-      min-height: 0;
+        width: 100%;
     }
-  
+
     .about .text-one h2,
     .contact h2 {
-      width: 100%;
+        font-size: var(--font-x-large);
     }
-  
-    .about .text-one a {
-      margin: 0 auto;
+
+    .about .text-one p {
+        font-size: var(--font-medium);
     }
-  
-    .about .text-one {
-      width: 100%;
-    }
-    .about .text-two {
-      width: 100%;
+
+    .about .text-two ul {
+        font-size: var(--font-medium);
     }
   
     .numbers .container {
